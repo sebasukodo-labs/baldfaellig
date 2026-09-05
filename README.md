@@ -22,9 +22,9 @@ Currently in **Phase 1: Local MVP**
 - **Architecture:** MVVM
 - **Persistence:** Room (local, Phase 1) — TODO: confirm once Epic 2 is implemented
 - **Min SDK:** 26 (Android 8.0)
-- **Target SDK:** TODO
-- **Kotlin version:** TODO
-- **Build system:** TODO (e.g. Gradle version, AGP version)
+- **Target SDK:** 37
+- **Kotlin version:** 2.2.10
+- **Build system:** Gradle 9.5.0, AGP 9.3.2
 
 > Planned for later phases (not yet relevant): Spring Boot + PostgreSQL backend (Phase 2)
 
@@ -32,8 +32,8 @@ Currently in **Phase 1: Local MVP**
 
 ### Prerequisites
 
-- Android Studio: TODO (version)
-- JDK: TODO (version)
+- Android Studio: latest stable version compatible with AGP 9.3 (see [AGP release notes](https://developer.android.com/build/releases/gradle-plugin))
+- JDK: 17 (required by AGP 9.3 to run Gradle)
 
 ### Setup
 
