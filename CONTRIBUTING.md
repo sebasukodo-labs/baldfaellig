@@ -42,7 +42,7 @@ responsibilities separated as the UI grows.
 ```
 
 ```
-docs(readme): adding contributing section
+docs(readme): add contributing section
 ```
 
 ```
