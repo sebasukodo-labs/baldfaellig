@@ -50,6 +50,10 @@ TODO: Add steps once the project skeleton is in place — e.g. opening in Androi
 TODO: fill in once package architecture is defined
 ```
 
+## Contributing
+
+For commit message conventions, see [CONTRIBUTING.md](./CONTRIBUTING.md).
+
 ## License
 
 TODO
