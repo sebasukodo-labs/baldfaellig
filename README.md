@@ -38,11 +38,17 @@ Currently in **Phase 1: Local MVP**
 ### Setup
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/sebasukodo-labs/baldfaellig.git
 cd baldfaellig
 ```
 
-TODO: Add steps once the project skeleton is in place — e.g. opening in Android Studio, syncing Gradle, running on emulator/device.
+### Start App
+
+1. Open the project in Android Studio.
+2. Wait for Gradle to sync and complete the project setup.
+3. Select an available emulator or connect an Android device.
+4. Run the app using Run ▶.
+5. If prompted, accept any required Android SDK or build tool installations.
 
 ## Project Structure
 
