@@ -17,6 +17,8 @@ Currently in **Phase 1: Local MVP**
 
 ## Tech Stack
 
+> Versions verified as current & mutually compatible on 2026-09-07
+
 - **Language:** Kotlin
 - **Platform:** Native Android
 - **Architecture:** MVVM
@@ -25,6 +27,11 @@ Currently in **Phase 1: Local MVP**
 - **Target SDK:** 37
 - **Kotlin version:** 2.2.10
 - **Build system:** Gradle 9.5.0, AGP 9.3.2
+- **KSP:** 2.3.11
+- **Coroutines:** 1.11.0
+- **Lifecycle:** 2.11.0
+- **Room:** 3.0.2 — chosen over Room 2.x, which is deprecated
+- **Navigation3:** 1.1.7 — chosen over Navigation Compose v2, which is in maintenance mode
 
 > Planned for later phases (not yet relevant): Spring Boot + PostgreSQL backend (Phase 2)
 
