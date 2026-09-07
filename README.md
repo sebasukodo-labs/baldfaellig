@@ -59,8 +59,21 @@ cd baldfaellig
 
 ## Project Structure
 
+The app follows a package-by-layer structure (MVVM), suitable for the current project size.
+
+### Current
+
 ```
-TODO: fill in once package architecture is defined
+├── ui/           # Composables / screens
+└── navigation/   # NavKeys, NavDisplay setup
+```
+
+### Planned for the Future
+
+```
+├── data/         # Room entities, DAOs, database
+├── viewmodel/    # ViewModels
+└── domain/       # Use Cases, Domain Models, Business Logic
 ```
 
 ## Contributing
