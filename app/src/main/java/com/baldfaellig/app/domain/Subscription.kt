@@ -10,7 +10,8 @@ data class Subscription(
     val interval: BillingInterval,
     val nextPayment: LocalDate,
     val category: Category,
-    val notes: String?
+    val notes: String?,
+    val id: Long? = null,
 )
 
 data class BillingInterval(
