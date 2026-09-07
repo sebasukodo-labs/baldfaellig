@@ -64,16 +64,16 @@ The app follows a package-by-layer structure (MVVM), suitable for the current pr
 ### Current
 
 ```
-├── ui/           # Composables / screens
-└── navigation/   # NavKeys, NavDisplay setup
+├── domain/       # Use Cases, Domain Models, Business Logic 
+├── navigation/   # NavKeys, NavDisplay setup
+└── ui/           # Composables / screens
 ```
 
 ### Planned for the Future
 
 ```
 ├── data/         # Room entities, DAOs, database
-├── viewmodel/    # ViewModels
-└── domain/       # Use Cases, Domain Models, Business Logic
+└── viewmodel/    # ViewModels
 ```
 
 ## Contributing
