@@ -6,8 +6,8 @@ import androidx.navigation3.runtime.NavKey
 import androidx.navigation3.runtime.entryProvider
 import androidx.navigation3.runtime.rememberNavBackStack
 import androidx.navigation3.ui.NavDisplay
-import com.baldfaellig.app.ui.screen.AddSubscriptionScreen
-import com.baldfaellig.app.ui.screen.SubscriptionListScreen
+import com.baldfaellig.app.ui.screen.subscription.AddSubscriptionScreen
+import com.baldfaellig.app.ui.screen.subscription.SubscriptionListScreen
 import kotlinx.serialization.Serializable
 
 @Serializable
